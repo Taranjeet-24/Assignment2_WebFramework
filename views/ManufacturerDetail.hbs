@@ -1,0 +1,25 @@
+{{> header}}
+
+<h1>Results for Manufacturer: {{searchQuery}}</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Invoice No</th>
+            <th>Manufacturer</th>
+            <th>Class</th>
+            <th>Sales (in thousands)</th>
+            <!-- Add other columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        {{#each records}}
+        <tr>
+            <td>{{this.InvoiceNo}}</td>
+            <td>{{this.Manufacturer}}</td>
+            <td>{{this.class}}</td>
+            <td>{{this.Sales_in_thousands}}</td>
+            <!-- Add other columns as needed -->
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

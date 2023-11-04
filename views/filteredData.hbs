@@ -1,0 +1,23 @@
+{{> header}}
+
+<h1>All Sales Data (Filtered)</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Invoice Number</th>
+            <th>Manufacturer</th>
+            <th>Class</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+            {{#if class}}
+                <tr>
+                    <td>{{InvoiceNo}}</td>
+                    <td>{{Manufacturer}}</td>
+                    <td>{{class}}</td>
+                </tr>
+            {{/if}}
+        {{/each}}
+    </tbody>
+</table>

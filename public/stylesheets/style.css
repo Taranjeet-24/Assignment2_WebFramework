@@ -1,0 +1,122 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the navigation header */
+header {
+  background-color: #2C3E50;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #ECF0F1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: #3498DB;
+  color: white;
+}
+
+.header-title {
+  color: #ECF0F1;
+  font-size: 1.5em;
+  padding: 14px 16px;
+}
+
+/* Table styles */
+table {
+  width: 80%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #314b94;
+  color: white;
+}
+
+
+tr:nth-child(even) {background-color:rgb(210, 210, 210);}
+.highlight {
+  background-color: #FFD700; /* A gold color for highlighting */
+}
+
+
+/* Form styles */
+form {
+  width: 300px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: #36a1d3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type=submit]:hover {
+  background-color: #37444b;
+}
+
+label {
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Ensure full height for html and body */
+html, body {
+  height: 100%;
+}
+
+/* Adjusting footer styles to make it sticky */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #34495E;
+  color: #ECF0F1;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 3px solid #3498DB;
+  width: 100%;
+}

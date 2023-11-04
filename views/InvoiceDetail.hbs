@@ -1,0 +1,76 @@
+{{> header}}
+<h1>Invoice Details for {{item.InvoiceNo}}</h1>
+<table>
+    <tr>
+        <th>Field</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Image</td>
+        <td><img src="{{item.image}}" alt="Image of {{item.Manufacturer}}" width="300"></td>
+    </tr>
+    <tr>
+        <td>Manufacturer</td>
+        <td>{{item.Manufacturer}}</td>
+    </tr>
+    <tr>
+        <td>Class</td>
+        <td>{{item.class}}</td>
+    </tr>
+    <tr>
+        <td>Sales in Thousands</td>
+        <td>{{item.Sales_in_thousands}}</td>
+    </tr>
+    <tr>
+        <td>Year Resale Value</td>
+        <td>{{item.__year_resale_value}}</td>
+    </tr>
+    <tr>
+        <td>Vehicle Type</td>
+        <td>{{item.Vehicle_type}}</td>
+    </tr>
+    <tr>
+        <td>Price in Thousands</td>
+        <td>{{item.Price_in_thousands}}</td>
+    </tr>
+    <tr>
+        <td>Engine Size</td>
+        <td>{{item.Engine_size}}</td>
+    </tr>
+    <tr>
+        <td>Horsepower</td>
+        <td>{{item.Horsepower}}</td>
+    </tr>
+    <tr>
+        <td>Wheelbase</td>
+        <td>{{item.Wheelbase}}</td>
+    </tr>
+    <tr>
+        <td>Width</td>
+        <td>{{item.Width}}</td>
+    </tr>
+    <tr>
+        <td>Length</td>
+        <td>{{item.Length}}</td>
+    </tr>
+    <tr>
+        <td>Curb Weight</td>
+        <td>{{item.Curb_weight}}</td>
+    </tr>
+    <tr>
+        <td>Fuel Capacity</td>
+        <td>{{item.Fuel_capacity}}</td>
+    </tr>
+    <tr>
+        <td>Fuel Efficiency</td>
+        <td>{{item.Fuel_efficiency}}</td>
+    </tr>
+    <tr>
+        <td>Latest Launch</td>
+        <td>{{item.Latest_Launch}}</td>
+    </tr>
+    <tr>
+        <td>Power Performance Factor</td>
+        <td>{{item.Power_perf_factor}}</td>
+    </tr>
+</table>
